@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcultor</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div id="pageContainer">
+        <div id="inputContainer">
+            <div><input id="first" type="number" placeholder="Enter First Number"></div>
+            <div id="operatorContainer">
+                <select name="operators" id="operators">
+                    <option value="addition" >+</option>
+                    <option value="substraction">-</option>
+                    <option value="division">÷</option>
+                    <option value="multiplication">×</option>
+                    <option value="module">%</option>
+                </select>
+            </div>
+           <div><input id="second" type="number" placeholder="Enter Second Number"></div> 
+        </div>
+    
+        <div id="resultContainer">
+            <button id="resultButton">=</button>
+            <div id="resultValue"></div>
+            
+        </div>
+
+    </div>
+    
+    
+</body>
+
+<script src="script.js"></script>
+
+</html>
