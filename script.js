@@ -18,7 +18,8 @@ const calculation = (e) => {
     }
     if (operator.value === "division") {
       let divide = one / two;
-      addValue.innerHTML = ":   " + divide;
+      let division = divide.toFixed(2);  
+      addValue.innerHTML = ":   " + division;
     }
     if (operator.value === "multiplication"){
       let multiply = one * two;
